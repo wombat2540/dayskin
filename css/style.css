@@ -1450,7 +1450,7 @@ footer .infor_wrap {
         overflow-x: hidden;
     }
 
-     .navbar {
+    .navbar {
         width: calc(100% - 20px);
         top: 10px;
         height: 56px;
@@ -1704,54 +1704,54 @@ footer .infor_wrap {
     }
 
     #section8 {
-    width: 100%;
-    height: 1000px;
-    background: url(../images/section8/bottom_gradient.png) bottom center no-repeat #fff;
-    border-radius: 60px;
-}
+        width: 100%;
+        height: 1000px;
+        background: url(../images/section8/bottom_gradient.png) bottom center no-repeat #fff;
+        border-radius: 60px;
+    }
 
-.inner_section8 .main_title {
-    line-height: 52px;
-    font-weight: 700;
-}
+    .inner_section8 .main_title {
+        line-height: 52px;
+        font-weight: 700;
+    }
 
-#section8 .btn_store {
-    display: flex;
-    justify-content: center;
-}
+    #section8 .btn_store {
+        display: flex;
+        justify-content: center;
+    }
 
-#section8 .img_wrap img{
-    width: 80%;
-}
+    #section8 .img_wrap img {
+        width: 80%;
+    }
 
     /* 푸터 태블릿 */
-footer {
-    min-height: 700px;
-}
+    footer {
+        min-height: 700px;
+    }
 
-footer .symbol{
-    width: 36px;
-}
+    footer .symbol {
+        width: 36px;
+    }
 
-footer .coperate {
+    footer .coperate {
 
-    padding: 32px 0 12px;
-}
+        padding: 32px 0 12px;
+    }
 
-footer .infor {
-    font-size: 14px;
-    line-height: 24px;
-}
+    footer .infor {
+        font-size: 14px;
+        line-height: 24px;
+    }
 
-footer .infor li {
-    margin-right: 20px;
-    margin-bottom: 0px;
-}
+    footer .infor li {
+        margin-right: 20px;
+        margin-bottom: 0px;
+    }
 
-.footer_logo{
-    font-size: 300px;
-    gap: 4px;
-}
+    .footer_logo {
+        font-size: 300px;
+        gap: 4px;
+    }
 }
 
 /* 모바일 반응형 (768px 이하) */
@@ -1832,7 +1832,7 @@ footer .infor li {
         padding: 0 20px;
     }
 
-    #section1 .img_wrap img{
+    #section1 .img_wrap img {
         width: 90%;
     }
 
@@ -1896,7 +1896,7 @@ footer .infor li {
     }
 
     /* 섹션3 모바일 */
-   .lotion1 {
+    .lotion1 {
         position: absolute;
         top: -120px;
         left: -200px;
@@ -1960,27 +1960,27 @@ footer .infor li {
     }
 
     #section8 {
-    width: 100%;
-    height: 800px;
-    background: url(../images/section8/bottom_gradient.png) bottom center no-repeat #fff;
-    border-radius: 32px;
-}
+        width: 100%;
+        height: 800px;
+        background: url(../images/section8/bottom_gradient.png) bottom center no-repeat #fff;
+        border-radius: 32px;
+    }
 
-.inner_section8 .main_title {
-    font-size: 28px;
-    line-height: 38px;
-    font-weight: 700;
-}
+    .inner_section8 .main_title {
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: 700;
+    }
 
-#section8 .btn_store {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
+    #section8 .btn_store {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
 
-#section8 .img_wrap img{
-    width: 100%;
-}
+    #section8 .img_wrap img {
+        width: 100%;
+    }
 
     /* 푸터 모바일 */
     footer {
@@ -2008,6 +2008,19 @@ footer .infor li {
         letter-spacing: -12px;
         bottom: -60px;
     }
+
+    /* 모든 animate-in 애니메이션 비활성화 */
+    #skin_trouble.animate-in .section-content,
+    #with_dayskin.animate-in .section-content,
+    #skin_diagnosis.animate-in .section-content,
+    #diary.animate-in .section-content,
+    #subun_tree.animate-in .section-content,
+    #conmmunity.animate-in .section-content,
+    #download.animate-in .section-content {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
 }
 
 
@@ -2016,7 +2029,7 @@ footer .infor li {
 @media (max-width: 480px) {
 
     /* 네비게이션 */
-     .navbar {
+    .navbar {
         position: fixed;
         top: 12px;
         height: 56px;
@@ -2088,7 +2101,7 @@ footer .infor li {
         min-height: 700px;
     }
 
-   .lotion1 {
+    .lotion1 {
         position: absolute;
         top: -150px;
         left: -110px;
@@ -2120,7 +2133,7 @@ footer .infor li {
         max-width: 48px;
     }
 
-    .slogan .headline{
+    .slogan .headline {
         font-size: 20px;
     }
 
@@ -2140,15 +2153,15 @@ footer .infor li {
     }
 
     #section8 {
-    width: 100%;
-    height: 620px;
-    background: url(../images/section8/bottom_gradient.png) bottom center no-repeat #fff;
-    border-radius: 32px;
-}
+        width: 100%;
+        height: 620px;
+        background: url(../images/section8/bottom_gradient.png) bottom center no-repeat #fff;
+        border-radius: 32px;
+    }
 
-#section8 .img_wrap img{
-    width: 100%;
-}
+    #section8 .img_wrap img {
+        width: 100%;
+    }
 
     /* 푸터 모바일 */
     footer {
@@ -2179,27 +2192,27 @@ footer .infor li {
 
     @keyframes letterWave {
 
-    0%,
-    20%,
-    100% {
-        transform: translateY(0);
+        0%,
+        20%,
+        100% {
+            transform: translateY(0);
+        }
+
+        10% {
+            transform: translateY(-40px);
+        }
     }
 
-    10% {
-        transform: translateY(-40px);
-    }
-}
+    @keyframes letterWaveY {
 
-@keyframes letterWaveY {
+        0%,
+        20%,
+        100% {
+            transform: translateY(0);
+        }
 
-    0%,
-    20%,
-    100% {
-        transform: translateY(0);
+        10% {
+            transform: translateY(-44px);
+        }
     }
-
-    10% {
-        transform: translateY(-44px);
-    }
-}
 }
